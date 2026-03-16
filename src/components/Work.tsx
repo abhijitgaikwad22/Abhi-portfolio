@@ -8,19 +8,19 @@ const projects = [
     title: "HabitFlow",
     category: "Task Manager",
     tools: "Python, Flask, Charts, Excel Export",
-    image: "/images/placeholder.webp",
+    image: "/images/habitflow.jpg",
   },
   {
     title: "App Portal",
     category: "Web Portal",
     tools: "Python, Flask, Render",
-    image: "/images/placeholder.webp",
+    image: "/images/appportal.jpg",
   },
   {
     title: "Dental Clinic Website",
     category: "Client Project",
     tools: "HTML, CSS, JavaScript, Netlify",
-    image: "/images/placeholder.webp",
+    image: "/images/dental.jpg",
   },
   {
     title: "AI Content Generator",
