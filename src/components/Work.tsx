@@ -9,30 +9,35 @@ const projects = [
     category: "Task Manager",
     tools: "Python, Flask, Charts, Excel Export",
     image: "/images/HABITFLOW.JPG",
+    link: "https://habitflow-nmoc.onrender.com",
   },
   {
     title: "App Portal",
     category: "Web Portal",
     tools: "Python, Flask, Render",
     image: "/images/APP_PORTAL.JPG",
+    link: "https://appportal.onrender.com",
   },
   {
     title: "Dental Clinic Website",
     category: "Client Project",
     tools: "HTML, CSS, JavaScript, Netlify",
     image: "/images/DENTAL_SITE.JPG",
+    link: "https://gayatri-dental-portfolio.netlify.app",
   },
   {
     title: "AI Content Generator",
     category: "AI Tool",
     tools: "Python, LLM APIs, SEO Optimization",
-    image: "/images/placeholder.webp",
+    image: "/images/ai_content.png",
+    link: "",
   },
   {
     title: "Face Detection System",
     category: "Computer Vision",
     tools: "Python, OpenCV, Deep Learning",
-    image: "/images/placeholder.webp",
+    image: "/images/face_detection.png",
+    link: "",
   },
 ];
 
@@ -115,7 +120,7 @@ const Work = () => {
                       </div>
                     </div>
                     <div className="carousel-image-wrapper">
-                      <WorkImage image={project.image} alt={project.title} />
+                      <WorkImage image={project.image} alt={project.title} link={project.link} />
                     </div>
                   </div>
                 </div>
