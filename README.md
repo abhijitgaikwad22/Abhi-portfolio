@@ -2,7 +2,7 @@
 
 Welcome to the repository of my personal portfolio website. This is a high-performance, visually stunning 3D portfolio designed to showcase my journey as an AI & Python Developer, highlighting my projects, skills, and experience.
 
-![Portfolio Preview](public/images/preview.png)
+![Portfolio Preview](./public/images/PREVIEW.png)
 
 ## 🌐 Live Demo
 Check out the live site here: **[the-abhi-dev.netlify.app](https://the-abhi-dev.netlify.app/)**
